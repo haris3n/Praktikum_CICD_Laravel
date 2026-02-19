@@ -7,6 +7,7 @@ use App\Http\Requests\Admin\{PostRequest, SearchRequest};
 use App\Models\{Category, Post, Tag};
 use App\Traits\SlugCreater;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class PostController extends Controller
 {
@@ -61,6 +62,8 @@ class PostController extends Controller
         if ($request->hasfile('image')) {
             $post_data['image'] = $request->file('image')->store('images/posts');
         }
+
+        $post_data['user_id'] = Auth::id(); # tanbahkkan ini untuk menyimpan id user yang membuat post
 
         $post = Post::create($post_data);
 
