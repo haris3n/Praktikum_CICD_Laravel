@@ -27,3 +27,4 @@ jobs:
           composer install --no-dev
           php artisan migrate --force
           php artisan optimize
+          
