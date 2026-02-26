@@ -23,7 +23,8 @@ jobs:
         debug: true
         script: |
           cd /var/www/haris_projek
-          git pull origin main
+          git fetch origin
+          git reset --hard origin/main 
           composer install --no-dev
           php artisan migrate --force
           php artisan optimize
