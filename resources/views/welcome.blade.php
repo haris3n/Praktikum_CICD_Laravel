@@ -38,7 +38,7 @@
             <div class="flex justify-center mt-10">
                 <div class="text-center">
                     <h1 style="font-size: 3rem; font-weight: 800; color: #EF3B2D; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0;">
-                        HARIS TUGAS PRAKTIKUM CICD
+                        HARIS TUGAS PRAKTIKUM CICD tes
                     </h1>
                     <p style="color: #718096; font-size: 1.2rem;">
                         Deployment Pipeline: <span style="color: #48bb78;">● Active</span>
