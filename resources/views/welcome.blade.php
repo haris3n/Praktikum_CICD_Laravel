@@ -35,7 +35,16 @@
                     @endauth
                 </div>
             @endif
-
+            <div class="flex justify-center mt-10">
+                <div class="text-center">
+                    <h1 style="font-size: 3rem; font-weight: 800; color: #EF3B2D; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0;">
+                        HARIS TUGAS PRAKTIKUM CICD
+                    </h1>
+                    <p style="color: #718096; font-size: 1.2rem;">
+                        Deployment Pipeline: <span style="color: #48bb78;">● Active</span>
+                    </p>
+                </div>
+            </div>
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                     <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto text-gray-700 sm:h-20">
