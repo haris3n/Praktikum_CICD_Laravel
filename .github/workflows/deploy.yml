@@ -27,4 +27,6 @@ jobs:
           composer install --no-dev
           php artisan migrate --force
           php artisan optimize
-          
+          php artisan view:clear # tambah ini
+          php artisan cache:clear # tambah ini
+          php artisan config:clear  # tambah ini
